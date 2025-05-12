@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Configuração opcional do Tailwind (se necessário)
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        // Define a fonte Inter como padrão
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md text-center">
+        <h1 class="text-2xl font-semibold mb-6 text-gray-800">Gerador de Mensagens</h1>
+
+        <div id="message-display" class="mb-6 p-3 bg-gray-50 border border-gray-200 rounded-md text-gray-700 min-h-[50px] flex items-center justify-center break-words">
+            Clique em um botão para gerar e copiar a mensagem.
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <button id="btn-caixa-postal" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-md transition duration-150 ease-in-out w-full">
+                Caixa postal
+            </button>
+
+            <button id="btn-google-voice" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-md transition duration-150 ease-in-out w-full">
+                Google Voice
+            </button>
+
+            <button id="btn-nao-interessa" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-md transition duration-150 ease-in-out w-full">
+                Não tem interesse
+            </button>
+
+            <button id="btn-data-hora" class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-4 rounded-md transition duration-150 ease-in-out w-full">
+                Data/Hora
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>

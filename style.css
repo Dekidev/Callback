@@ -1,0 +1,15 @@
+/* Define a fonte Inter como padrão para o corpo, caso o Tailwind não aplique */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilo para adicionar o feedback "(Copiado!)" após o texto do botão */
+.btn-copied::after {
+    content: ' (Copiado!)'; /* Texto a ser adicionado */
+    font-size: 0.8em;      /* Tamanho da fonte menor */
+    color: green;          /* Cor do texto */
+    margin-left: 4px;      /* Espaço à esquerda */
+    font-weight: normal;   /* Peso da fonte normal */
+}
+
+/* Você pode adicionar outros estilos personalizados aqui, se necessário */
