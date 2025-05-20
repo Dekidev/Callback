@@ -1,6 +1,6 @@
 # Callback
 
-Este projeto é uma aplicação web simples desenvolvida com HTML, CSS e JavaScript. Ele serve como exemplo para demonstrar o uso de callbacks em JavaScript, ilustrando como funções podem ser passadas como argumentos e executadas posteriormente.
+Este projeto é uma aplicação web simples desenvolvida com HTML, CSS e JavaScript. Utilizada facilitar o registro de Cold Calls, ou contatos com possíveis LEADS.
 
 ## 🚀 Demonstração
 
@@ -21,7 +21,6 @@ Você pode visualizar o projeto em funcionamento acessando o arquivo `index.html
 ## 📚 Conceitos Abordados
 
 - Funções de callback em JavaScript
-- Manipulação do DOM
 - Eventos e interatividade
 
 ## 📦 Como Executar o Projeto
@@ -41,6 +40,22 @@ Você pode visualizar o projeto em funcionamento acessando o arquivo `index.html
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## 🤖 Como utilizar
+
+1. Abra o arquivo `index.html` no seu navegador preferido.
+
+2. Após o contato com o cliente ou possível cliente:
+   Clique no botão referente ao tipo de retorno recebido.
+<div align= "center">
+   <img src="https://github.com/user-attachments/assets/7332712e-e2de-491f-a3cc-98912b2c0756" width="200px" />
+</div>
+
+3. A mensagem já estará no seu clipboard, pronta para colar no seu registro. 
+<div align= "center">
+   <img src="https://github.com/user-attachments/assets/9ff10dd9-4ed2-4a78-ab6c-dabba62e5dfd" width="600px" />
+</div>
+ 
 
 ## 📄 Licença
 
